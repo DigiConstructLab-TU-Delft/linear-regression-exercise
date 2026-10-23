@@ -1,0 +1,27 @@
+
+.cover-hero[data-v-aad5c191] { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; min-height: 405px;
+}
+.kicker[data-v-aad5c191] { margin: 0 0 18px; color: #007fa8; font-size: 0.55em; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase;
+}
+h1[data-v-aad5c191] { margin: 0; color: #010101; font: 700 2.3em/1.1 Arial, Helvetica, sans-serif; letter-spacing: -0.04em;
+}
+h1[data-v-aad5c191]::after { content: ''; display: block; width: 54px; height: 5px; margin-top: 15px; background: #00aeef;
+}
+h1[data-v-aad5c191] { max-width: 540px;
+}
+.presenter-block[data-v-aad5c191] { display: grid; gap: 4px; margin-top: 34px; padding-top: 16px; border-top: 1px solid #d9e2e6; max-width: 420px;
+}
+.presenter-block p[data-v-aad5c191] { margin: 0; color: #64727a; font-size: 0.48em; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+}
+.presenter-block strong[data-v-aad5c191] { color: #1d2830; font-size: 0.8em;
+}
+svg[data-v-aad5c191] { width: 100%; height: auto; font: 12px Arial, sans-serif; fill: #64727a;
+}
+.axis[data-v-aad5c191] { stroke: #829099; stroke-width: 1.2;
+}
+.fit[data-v-aad5c191] { stroke: #00aeef; stroke-width: 3.5;
+}
+.res[data-v-aad5c191] { stroke: #e85d3f; stroke-width: 1.6; opacity: 0.7;
+}
+circle[data-v-aad5c191] { fill: #1d2830; stroke: #fff; stroke-width: 2;
+}

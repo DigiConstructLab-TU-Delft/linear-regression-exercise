@@ -1,0 +1,21 @@
+
+.bars[data-v-048954e3] { display: grid; gap: 10px;
+}
+.row[data-v-048954e3] { display: grid; grid-template-columns: 190px 1fr 130px; gap: 14px; align-items: center; font: 12px Arial, sans-serif; color: #40525a;
+}
+.lab[data-v-048954e3] { font-weight: 700; color: #1d2830;
+}
+.track[data-v-048954e3] { position: relative; height: 18px; background: #eef2f4;
+}
+.range[data-v-048954e3] { position: absolute; top: 0; bottom: 0;
+}
+.range.ci[data-v-048954e3] { background: #00aeef;
+}
+.range.pi[data-v-048954e3] { background: #b9e6f7;
+}
+.mid[data-v-048954e3] { position: absolute; top: -3px; bottom: -3px; width: 3px; background: #e85d3f;
+}
+.val[data-v-048954e3] { text-align: right; font-variant-numeric: tabular-nums;
+}
+.axis[data-v-048954e3] { display: flex; justify-content: space-between; margin: 0 130px 0 204px; color: #64727a; font: 11px Arial, sans-serif;
+}
