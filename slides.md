@@ -92,7 +92,7 @@ layout: default
 # Set up and look at the data
 
 <div class="contrast-pair">
-  <div><h2>Run cells 0–8</h2><p>Install and import the libraries, load the 30 packages, run <code>df.describe().T</code> and draw the concrete-versus-price scatter plot.</p></div>
+  <div><h2>Run cells 2–5</h2><p>Install and import the libraries, load the 30 packages, run <code>df.describe().T</code> and draw the concrete-versus-price scatter plot.</p></div>
   <div><h2>Be ready to answer</h2><p>Is the planned 1,200 m³ package within the historical range? Does price rise with concrete volume? How much do prices still vary?</p></div>
 </div>
 
@@ -139,7 +139,7 @@ layout: default
 # Fit the simple regression
 
 <div class="contrast-pair">
-  <div><h2>Run cells 9–11</h2><p>Fit price on concrete volume with OLS, print the summary and predict the planned package.</p></div>
+  <div><h2>Run cells 6–7</h2><p>Fit price on concrete volume with OLS, print the summary and predict the planned package.</p></div>
   <div><h2>Be ready to answer</h2><p>What are the intercept and slope in words? What price do you get for 1,200 m³?</p></div>
 </div>
 
@@ -231,7 +231,7 @@ layout: default
 # Check the model and its uncertainty
 
 <div class="contrast-pair">
-  <div><h2>Run cells 12–21</h2><p>Compute residuals and error statistics, plot the residual diagnostics, read the t-test and get the confidence and prediction intervals.</p></div>
+  <div><h2>Run cells 8–10 and 15</h2><p>Compute residuals and error statistics (8), plot the residual diagnostics (9), read the t-test (10), then get the confidence and prediction intervals (15).</p></div>
   <div><h2>Be ready to answer</h2><p>What does R² say? Is the slope statistically convincing? Why is the prediction interval wider?</p></div>
 </div>
 
@@ -328,7 +328,7 @@ layout: default
 # Add reinforcement and test for overlap
 
 <div class="contrast-pair">
-  <div><h2>Run cells 22–27</h2><p>Fit concrete plus reinforcement, then compute the correlation matrix and the VIFs.</p></div>
+  <div><h2>Run cells 16–18</h2><p>Fit concrete plus reinforcement, then compute the correlation matrix and the VIFs.</p></div>
   <div><h2>Be ready to answer</h2><p>What happens to the concrete coefficient? Which predictors overlap, and why does that matter?</p></div>
 </div>
 
@@ -482,7 +482,7 @@ layout: default
 # Select variables with AIC
 
 <div class="contrast-pair">
-  <div><h2>Run cells 28–32</h2><p>Fit the full model, then run forward and backward AIC selection.</p></div>
+  <div><h2>Run cells 19–22</h2><p>Fit the full model, run forward and backward AIC selection, compare the candidates and fit the final model.</p></div>
   <div><h2>Be ready to answer</h2><p>Which variables does each method keep? Why does the selected model beat the full one?</p></div>
 </div>
 
@@ -560,7 +560,7 @@ layout: default
 # Check the final model and price the package
 
 <div class="contrast-pair">
-  <div><h2>Run cells 33–39</h2><p>Fit the selected model, inspect the diagnostics and Cook’s distance, and compute the estimate with its intervals.</p></div>
+  <div><h2>Run cells 23–26</h2><p>Fit the selected model, inspect the diagnostics and Cook’s distance, and compute the estimate with its intervals.</p></div>
   <div><h2>Be ready to answer</h2><p>What price and range do you get? Which rows are most influential? What would you add before tendering?</p></div>
 </div>
 
@@ -610,7 +610,7 @@ layout: default
 # Test yourself
 
 <div class="contrast-pair">
-  <div><h2>Run cells 40–43</h2><p>Answer the final quiz questions, then open the suggested answers to compare.</p></div>
+  <div><h2>Run cell 27</h2><p>Answer the final quiz questions, then open the suggested answers to compare.</p></div>
   <div><h2>Be ready to answer</h2><p>Can you connect each statistical idea to the tender-pricing decision?</p></div>
 </div>
 
